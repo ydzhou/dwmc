@@ -6,6 +6,6 @@ dwmblocks &
 
 imwheel &
 
-picom -b --config ~/dwmconfigs/compton.conf &
+# picom -b --config ~/dwmconfigs/compton.conf &
 
 feh --bg-fill ${WALLPAPER} &
