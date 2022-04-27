@@ -2,8 +2,14 @@
 
 WALLPAPER=~/Pictures/wp/xb2wp04.jpg
 
-# imwheel &
+imwheel &
 
 # picom -b --config ~/dwmconfigs/compton.conf &
 
-# feh --bg-fill ${WALLPAPER} &
+# xfce4-panel --disable-wm-check &
+
+./statusbar.sh &
+
+feh --bg-fill ${WALLPAPER} &
+
+ibus-daemon -drxR &
