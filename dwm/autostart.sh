@@ -4,7 +4,7 @@ WALLPAPER=~/Pictures/wp/xb2wp04.jpg
 
 imwheel &
 
-picom -b --config ~/dwmconfigs/compton.conf &
+picom -b --config ~/dwmc/compton.conf &
 
 # xfce4-panel --disable-wm-check &
 
