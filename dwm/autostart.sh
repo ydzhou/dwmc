@@ -1,16 +1,15 @@
 #!/bin/sh
 
-WALLPAPER=~/Pictures/wp/xb2wp04.jpg
+WALLPAPER=~/Pictures/archwp01.png
 
 imwheel &
 
 picom -b --config ~/dwmc/compton.conf &
 
-# xfce4-panel --disable-wm-check &
-
 feh --bg-fill ${WALLPAPER} &
 
-ibus-daemon -drxR &
+# ibus-daemon -drxR &
+fcitx5 &
 
 while true; do
     xsetroot -name "$(date +'%B%d %A %I:%M')"
