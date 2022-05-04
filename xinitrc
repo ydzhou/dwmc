@@ -1,7 +1,7 @@
 xrdb -merge ~/.Xresources
 
-/usr/bin/pipewire &
-/usr/bin/pipewire-pulse &
-/usr/bin/wireplumber &
+/* /usr/bin/pipewire & */
+/* /usr/bin/pipewire-pulse & */
+/* /usr/bin/wireplumber & */
 
-exec dwm
+exec bspwm

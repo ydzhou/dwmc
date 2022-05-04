@@ -1,0 +1,32 @@
+super + Return
+    st
+
+super + p
+    rofi -show drun -width 800
+
+super + shift + q
+    bspc quit
+
+super + shift + r
+    bspc wm -r
+
+super + m
+    bspc desktop -l next
+
+super + q
+    bspc node -c
+
+super + {1-9}
+    bspc desktop -f ^{1-9}
+
+super + shift + {1-9}
+    bspc node -d ^{1-9} -f
+
+ctrl + {Left,Right}
+    bspc node -d {prev,next} -f
+
+F11
+    pamixer --decrease 10
+
+F12
+    pamixer --increase 10
