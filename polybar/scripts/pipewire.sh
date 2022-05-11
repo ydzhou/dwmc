@@ -13,5 +13,5 @@ case $1 in
         pamixer --toggle-mute
         ;;
     *)
-        echo "墳 ${VOLUME}"
+        echo " ${VOLUME}"
 esac

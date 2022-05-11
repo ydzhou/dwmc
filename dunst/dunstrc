@@ -21,7 +21,7 @@
     geometry = 600x300-40+60
 
     # Scale factor. It is auto-detected if value is 0.
-    scale = 0
+    scale = 2
 
     # Maximum number of notification (0 means no limit)
     notification_limit = 0
@@ -275,14 +275,14 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#222222"
     foreground = "#888888"
-    timeout = 0
+    timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
     background = "#285577"
     foreground = "#ffffff"
-    timeout = 0
+    timeout = 30
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 

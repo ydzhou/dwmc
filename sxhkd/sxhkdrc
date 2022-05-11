@@ -1,5 +1,5 @@
 super + Return
-    st
+    wezterm
 
 super + p
     rofi -show drun -width 800
@@ -30,3 +30,10 @@ F11
 
 F12
     pamixer --increase 10
+
+super + t                                                                      
+    if [ -z "$(bspc query -N -n focused.floating)"  ]; then \                    
+        bspc node focused -t floating; \                                        
+    else \                                                                      
+        bspc node focused -t tiled; \                                           
+    fi

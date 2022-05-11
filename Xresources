@@ -1,5 +1,5 @@
-Xft.dpi: 162
-rofi.dpi: 162
+Xft.dpi: 150
+! rofi.dpi: 162
 
 Xft.antialias: true
 Xft.hinting:   true
@@ -12,12 +12,12 @@ Xft.lcdfilter: lcdfilter
 Xcursor.size: 48
 ! Xcursor.theme: Adwaita
 
-#define URXVT_FONT xft:LiterationMono Nerd Font:size=14
+#define URXVT_FONT xft:BlexMono Nerd Font:size=14,xft:WenQuanYi Micro Hei Mono:size=14
 URxvt.font: URXVT_FONT
 URxvt.boldFont: URXVT_FONT
 URxvt.italicFont: URXVT_FONT
 URxvt.boldItalicFont: URXVT_FONT
-URxvt.letterSpace: 1
+URxvt.letterSpace: -1
 URxvt.lineSpace: 0
 
 ! URxvt.geometry: 100x30
