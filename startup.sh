@@ -2,12 +2,12 @@
 
 xrdb -merge ~/.Xresources
 
-WALLPAPER=$HOME/Pictures/xb2wp04.jpg
+WALLPAPER=$HOME/Pictures/arch01.png
 
-imwheel -k --wheel-fifo -b "45"
+# /usr/bin/pkill imwheel && imwheel -b "45" &
 
-picom -b --config $HOME/linuxc/compton.conf
+pgrep -x picom > /dev/null || picom -b --config $HOME/linuxc/compton.conf
 
 feh --bg-fill ${WALLPAPER} &
 
-ibus-daemon -drxR
+pgrep -x ibus-daemon > /dev/null ||  ibus-daemon -drxR

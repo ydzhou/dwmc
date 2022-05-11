@@ -3,7 +3,9 @@ xrandr --dpi 150
 
 $HOME/linuxc/startup.sh &
 
-pgrep -x sxhkd > /dev/null || sxhkd &
+pkill sxhkd  
+
+sxhkd &
 
 $HOME/.config/polybar/launch.sh &
 

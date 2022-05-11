@@ -1,5 +1,5 @@
 super + Return
-    wezterm
+    kitty
 
 super + p
     rofi -show drun -width 800
