@@ -1,3 +1,3 @@
-xrdb -merge ~/.Xresources
+$HOME/linuxc/startup.sh
 
-exec bspwm
+exec dwm
