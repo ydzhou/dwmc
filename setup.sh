@@ -33,8 +33,5 @@ ln -sf $CONFIGROOT/polybar $HOME/.config/
 ln -sf $CONFIGROOT/sxhkd $HOME/.config/
 echo "bspwm setup completed"
 
-ln -sf $CONFIGROOT/openbox $HOME/.config/
-echo "openbox setup completed"
-
 ln -sf $CONFIGROOT/fontconfig $HOME/.config/
 echo "font config completed"
