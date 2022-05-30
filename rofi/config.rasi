@@ -5,7 +5,7 @@ configuration {
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
-/*	show-icons: false;*/
+	show-icons: true;
 /*	terminal: "rofi-sensible-terminal";*/
 /*	ssh-client: "ssh";*/
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
@@ -37,7 +37,7 @@ configuration {
 /*	tokenize: true;*/
 /*	m: "-5";*/
 /*	filter: ;*/
-	dpi: 150;
+	dpi: 192;
 /*	threads: 0;*/
 /*	scroll-method: 0;*/
 /*	window-format: "{w}    {c}   {t}";*/

@@ -9,27 +9,5 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcdfilter
 
 ! Fix cursor size change when not in windows for Bspwm
-Xcursor.size: 48
+Xcursor.size: 32
 ! Xcursor.theme: Adwaita
-
-#define URXVT_FONT xft:BlexMono Nerd Font:size=14,xft:WenQuanYi Micro Hei Mono:size=14
-URxvt.font: URXVT_FONT
-URxvt.boldFont: URXVT_FONT
-URxvt.italicFont: URXVT_FONT
-URxvt.boldItalicFont: URXVT_FONT
-URxvt.letterSpace: -1
-URxvt.lineSpace: 0
-
-! URxvt.geometry: 100x30
-URxvt.internalBorder: 10
-URxvt.scrollBar: false
-URxvt.scrollBar_right: false
-URxvt.cursorBlink: false
-URxvt.saveline: 10000
-URxvt.modifier: meta
-
-URxvt.perl-ext-common: default,clipboard
-URxvt.copyCommand: xclip -i -selection clipboard
-URxvt.pasteCommand: xclip -o -selection clipboard
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.keysym.M-v: perl:clipboard:paste

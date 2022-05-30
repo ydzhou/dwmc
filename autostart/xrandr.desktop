@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/yudi/linuxc/hidpi-gnome-scaling.sh
+NoDisplay=false
+Hidden=false
+Name=xrandr
+OnlyShowIn=GNOME
