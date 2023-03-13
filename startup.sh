@@ -1,13 +1,28 @@
 #!/bin/sh
 
+. $HOME/linuxc/CONFIG
+
 xrdb -merge ~/.Xresources
 
-WALLPAPER=$HOME/Pictures/girl02.jpg
+if [ "$WALLPAPER_FEH" ]
+then
+    feh --bg-fill ${WALLPAPER} &
+fi
 
-feh --bg-fill ${WALLPAPER} &
+if [ "$PICOM" ]
+then
+    pgrep -x picom > /dev/null || picom -b --config $HOME/linuxc/picom/dwm.conf
+fi
 
-pgrep -x picom > /dev/null || picom -b --config $HOME/linuxc/picom/dwm.conf
+sleep 1s
 
-pkill ibus-daemon > /dev/null 
-# env GDK_SCALE=1.0 GDK_DPI_SCALE=1 ibus-daemon -drxR
-fcitx5 &
+if [ "$SYSTRAY" ]
+then
+    /usr/bin/volumeicon &
+    /usr/bin/nm-applet &
+fi
+
+if [ "$FCITX5" ]
+then
+    fcitx5 &
+fi

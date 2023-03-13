@@ -1,5 +1,10 @@
-Xft.dpi: 162
-! rofi.dpi: 162
+! 4K DPI Scaling
+! 27 2X
+! Xft.dpi: 192
+! 27 1.5X (32 2X)
+Xft.dpi: 144
+! 32 1.5X
+! Xft.dpi: 120
 
 Xft.antialias: true
 Xft.hinting:   true
@@ -8,6 +13,5 @@ Xft.autohint:  true
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcdfilter
 
-! Fix cursor size change when not in windows for Bspwm
 Xcursor.size: 32
 ! Xcursor.theme: Adwaita

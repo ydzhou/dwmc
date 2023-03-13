@@ -3,6 +3,6 @@
 $HOME/linuxc/startup.sh &
 
 while true; do
-    xsetroot -name "$(date +'%B %d %A %I:%M')"
-    sleep 2
+    xsetroot -name "$(hostname -i) | $(date +'%B %d %A %I:%M')"
+    sleep 5
 done

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+WALLPAPER=$HOME/Pictures/xb2wp04.jpg
+
+WALLPAPER_FEH=1
+PICOM=1
+FCITX5=1
+# SYSTRAY=1
