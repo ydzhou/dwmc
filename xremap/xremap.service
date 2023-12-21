@@ -1,0 +1,9 @@
+[Unit]
+Description=xremap
+
+[Service]
+Restart=always
+ExecStart=xremap %h/linuxc/xremap/config.yaml
+
+[Install]
+WantedBy=default.target

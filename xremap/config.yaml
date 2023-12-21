@@ -1,0 +1,15 @@
+modmap:
+  - name: OSX style binding
+    remap:
+      Win_L: Ctrl_L
+      Win_R: Ctrl_R
+    application:
+      not: [kitty, emacs]
+  - name: Emacs meta binding
+    remap:
+      Win_L: Alt_L
+      Win_R: Alt_R
+      Alt_L: Win_L
+      Alt_R: Win_R
+    application:
+      only: emacs
